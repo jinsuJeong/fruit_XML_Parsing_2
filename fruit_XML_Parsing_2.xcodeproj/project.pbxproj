@@ -12,6 +12,8 @@
 		3C6A14FC214F75F500F9592F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6A14FA214F75F500F9592F /* Main.storyboard */; };
 		3C6A14FE214F75FB00F9592F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6A14FD214F75FB00F9592F /* Assets.xcassets */; };
 		3C6A1501214F75FB00F9592F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6A14FF214F75FB00F9592F /* LaunchScreen.storyboard */; };
+		3C6A1509214F766700F9592F /* Fruit.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3C6A1508214F766700F9592F /* Fruit.xml */; };
+		3C6A150B214F816A00F9592F /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A150A214F816A00F9592F /* FruitData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3C6A14FD214F75FB00F9592F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C6A1500214F75FB00F9592F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C6A1502214F75FB00F9592F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6A1508214F766700F9592F /* Fruit.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Fruit.xml; sourceTree = "<group>"; };
+		3C6A150A214F816A00F9592F /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		3C6A14F5214F75F500F9592F /* fruit_XML_Parsing_2 */ = {
 			isa = PBXGroup;
 			children = (
+				3C6A1508214F766700F9592F /* Fruit.xml */,
 				3C6A14F6214F75F500F9592F /* AppDelegate.swift */,
 				3C6A14F8214F75F500F9592F /* ViewController.swift */,
 				3C6A14FA214F75F500F9592F /* Main.storyboard */,
 				3C6A14FD214F75FB00F9592F /* Assets.xcassets */,
 				3C6A14FF214F75FB00F9592F /* LaunchScreen.storyboard */,
 				3C6A1502214F75FB00F9592F /* Info.plist */,
+				3C6A150A214F816A00F9592F /* FruitData.swift */,
 			);
 			path = fruit_XML_Parsing_2;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				3C6A1501214F75FB00F9592F /* LaunchScreen.storyboard in Resources */,
 				3C6A14FE214F75FB00F9592F /* Assets.xcassets in Resources */,
+				3C6A1509214F766700F9592F /* Fruit.xml in Resources */,
 				3C6A14FC214F75F500F9592F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				3C6A14F9214F75F500F9592F /* ViewController.swift in Sources */,
 				3C6A14F7214F75F500F9592F /* AppDelegate.swift in Sources */,
+				3C6A150B214F816A00F9592F /* FruitData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
